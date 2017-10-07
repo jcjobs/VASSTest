@@ -1,0 +1,11 @@
+framework module CustomTableRowFramework {
+  umbrella header "CustomTableRowFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module CustomTableRowFramework.Swift {
+    header "CustomTableRowFramework-Swift.h"
+    requires objc
+}

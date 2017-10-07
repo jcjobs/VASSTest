@@ -1,0 +1,6 @@
+framework module Pods_VASSTestTests {
+  umbrella header "Pods-VASSTestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
